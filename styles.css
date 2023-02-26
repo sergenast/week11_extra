@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+
+}
+
+.input {
+    width: 200px;
+    height: 50px;
+    border: 5px solid rgb(83, 186, 186);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.input_dis {
+    border: 5px solid red;
+}
+
+#but {
+    width: 210px;
+    height: 40px;
+    background-color: rgb(83, 186, 186);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    border: 0;
+}
+
+#but:hover {
+    cursor: pointer;
+    -webkit-box-shadow: -8px -5px 15px 21px rgba(2, 46, 49, 0.6) inset;
+    -moz-box-shadow: -8px -5px 15px 21px rgba(2, 46, 49, 0.6) inset;
+    box-shadow: -8px -5px 15px 21px rgba(2, 46, 49, 0.6) inset;
+}
